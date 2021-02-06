@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f22fe6e30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap headerWrap">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.svg" alt="" class="logoSvg"></a>
+                <a href="#"><img src="img/search.svg" alt="" class="searchSvg"></a>
+            </div>
+            <nav class="navHeaderMenu">
+                <div class="headerMenuWrap">
+                    <button class="menuIndexBtn"><img src="/img/menu.svg" alt="" class="menuSvg"></button>
+                    <div class="overlay">
+                        <div class="menuBurger">
+                            <ul class="menuBurgerList">
+                                <li class="menuBurgerItemBlack">MENU</li>
+                                <li class="menuBurgerItemPink">MAN
+                                    <ul class="menuBurgerCategories">
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Accessories</a>
+                                        </li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Bags</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Denim</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">T-Shirts</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuBurgerItemPink">WOMAN
+                                    <ul class="menuBurgerCategories">
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Accessories</a>
+                                        </li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Jackets
+                                                &amp;&nbsp;Coats</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Polos</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">T-Shirts</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Shirts</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menuBurgerItemPink">KIDS
+                                    <ul class="menuBurgerCategories">
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Accessories</a>
+                                        </li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Jackets
+                                                &amp;&nbsp;Coats</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Polos</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">T-Shirts</a></li>
+                                        <li><a href="catalog.html" class="menuBurgerCategoriesLinks">Shirts</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <button class="menuBurgerBtn">
+                                <svg class="burgerSvg" width="12.01" height="12.01" viewBox="0 0 18 18"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <a href="registration.html"><img src="img/acc.svg" alt="" class="accSvg"></a>
+                <a href="cart.html"><img src="img/cart.svg" alt="" class="cartSvg"></a>
+            </nav>
+        </div>
+    </header>
+    <section class="breadcrumbCatalog">
+        <div class="wrap breadcrumbCatalogWrap">
+            <div class="newArrivals">
+                <h1 class="h1linkNewArrivals">New Arrivals</h1>
+            </div>
+            <div class="menuBreadcrumbCatalog">
+                <h4 class="h3linkMenuBreadcrumbCatalog">Home / </h4>
+                <h4 class="h3linkMenuBreadcrumbCatalog">Men / </h4>
+                <h3 class="h4linkMenuBreadcrumbCatalog">New Arrivals</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalogProducts">
+        <div class="wrap">
+            <div class="catalogProductsHeader">
+                <nav class="catalogProductsHeaderFilter">
+                    <details class="filter">
+                        <summary>FILTER
+                            <svg class="filterSvg" width="15" height="10" viewBox="0 0 15 10"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" />
+                            </svg>
+                        </summary>
+                        <div class="filterContent">
+                            <details class="filterTitle">
+                                <summary class="filterItems">CATEGORY</summary>
+                                <ul class="filterList">
+                                    <li class="filterListItem"><a href="#" class="filterLink">Accessories</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Bags</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Denim</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Hoodies
+                                            &amp;&nbsp;Sweatshirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Jackets
+                                            &amp;&nbsp;Coats</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Polos</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shoes</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Sweaters
+                                            &amp;&nbsp;Knits</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">T-Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Tanks</a></li>
+                                </ul>
+                            </details>
+                            <details class="filterTitle">
+                                <summary class="filterItems">BRAND</summary>
+                                <ul class="filterList">
+                                    <li class="filterListItem"><a href="#" class="filterLink">Accessories</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Bags</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Denim</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Hoodies
+                                            &amp;&nbsp;Sweatshirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Jackets
+                                            &amp;&nbsp;Coats</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Polos</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shoes</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Sweaters
+                                            &amp;&nbsp;Knits</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">T-Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Tanks</a></li>
+                                </ul>
+                            </details>
+                            <details class="filterTitle">
+                                <summary class="filterItems">DESIGNER</summary>
+                                <ul class="filterList">
+                                    <li class="filterListItem"><a href="#" class="filterLink">Accessories</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Bags</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Denim</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Hoodies
+                                            &amp;&nbsp;Sweatshirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Jackets
+                                            &amp;&nbsp;Coats</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Polos</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Shoes</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Sweaters
+                                            &amp;&nbsp;Knits</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">T-Shirts</a></li>
+                                    <li class="filterListItem"><a href="#" class="filterLink">Tanks</a></li>
+                                </ul>
+                            </details>
+                        </div>
+                    </details>
+                </nav>
+                <nav class="catalogProductsHeaderTranding">
+                    <div class="catalogProductsHeaderTrandingWrap">
+                        <details class="tranding">
+                            <summary>TRENDING NOW<img src="img/arrowCatalogHeader.svg" alt=""
+                                    class="catalogProductsHeaderArrow"></summary>
+                            <div class="trandingBody">
+                                <label for="trandingNow">
+                                    <input type="checkbox" name="Plus" id="trandingNow">Plus</label>
+                                <label for="trandingNow">
+                                    <input type="checkbox" name="Petit" id="trandingNow">Petit</label>
+                                <label for="trandingNow">
+                                    <input type="checkbox" name="Tall" id="trandingNow">Tall</label>
+                            </div>
+                        </details>
+                        <details class="size">
+                            <summary>SIZE<img src="img/arrowCatalogHeader.svg" alt=""
+                                    class="catalogProductsHeaderArrow"></summary>
+                            <div class="sizeBody">
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="XS" id="sizeCheckbox">XS</label>
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="S" id="sizeCheckbox">S</label>
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="M" id="sizeCheckbox">M</label>
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="L" id="sizeCheckbox">L</label>
+                            </div>
+                        </details>
+                        <details class="price">
+                            <summary>PRICE<img src="img/arrowCatalogHeader.svg" alt=""
+                                    class="catalogProductsHeaderArrow"></summary>
+                            <div class="priceBody">
+                                <label for="priceCheckbox">
+                                    <input type="checkbox" name="XS" id="sizeCheckbox">0-100$</label>
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="S" id="sizeCheckbox">100-500$</label>
+                                <label for="sizeCheckbox">
+                                    <input type="checkbox" name="M" id="sizeCheckbox">500-1000$</label>
+
+                            </div>
+                        </details>
+                    </div>
+                </nav>
+            </div>
+            <div class="catalogProductsItems">
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen1.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen2.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen3.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen4.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen5.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen6.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen7.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen8.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="catalogProductsItemsCard">
+                    <div class="catalogProductsItemsCardPic"><img src="img/productsImgMen9.jpg" width="360" height="420"
+                            alt=""></div>
+                    <div class="catalogProductsItemsCardText">
+                        <a href="product.html">
+                            <h3 class="h3ProductsImg">ELLERY X&nbsp;M&rsquo;O CAPSULE</h3>
+                            <h4 class="h4ProductsImg">Known for her sculptural takes on&nbsp;traditional tailoring,
+                                Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.</h4>
+                            <h5 class="h5ProductsImg">$52.00</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="catalogProductsNav">
+                <div class="pagination">
+                    <a href="#" class="linkPagination"><img src="img/backArrow.svg" alt=""></a>
+                    <a href="#" class="linkPagination linkPaginationActive">1</a>
+                    <a href="#" class="linkPagination">2</a>
+                    <a href="#" class="linkPagination">3</a>
+                    <a href="#" class="linkPagination">4</a>
+                    <a href="#" class="linkPagination">5</a>
+                    <a href="#" class="linkPagination">6</a>
+                    <a href="#" class="linkPagination">...</a>
+                    <a href="#" class="linkPagination">20</a>
+                    <a href="#" class="linkPagination"><img src="img/forwardArrow.svg" alt=""></a>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="wrap feedbackWrap">
+            <div class="feedbackTalk"><img src="img/feedBackFace.jpg" alt="" class="feedbackFace">
+                <h5 class="h5FeedbackTalk">&laquo;Vestibulum quis porttitor dui! Quisque <br> viverra nunc&nbsp;mi,
+                    <i>a&nbsp;pulvinar purus <br> condimentum&raquo;</i>
+                </h5>
+            </div>
+            <div class="feedbackSubscribe">
+                <h2 class="h2feedbackSubscribe">SUBSCRIBE</h2>
+                <h5 class="h5feedbackSubscribe">FOR OUR NEWLETTER AND PROMOTION</h5>
+                <form class="feedbackSubscribeForm" action="#">
+                    <input class="feedbackSubscribeInput" placeholder="Enter Your Email">
+                    <a class="feedbackSubscribeButton" href="#">Subscribe</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrap footerWrap">
+            <div class="footerCopyright">
+                <h5 class="h5footerCopyright">&copy;&nbsp;2021 Brand All Rights Reserved.</h5>
+            </div>
+            <div class="footerNet">
+                <div class="socialFooterNet">
+                    <a href="https://www.facebook.com/" class="linkSocialFooterNet"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="linkSocialFooterNet"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/" class="linkSocialFooterNet"><i
+                            class="fab fa-pinterest-p"></i></a>
+                    <a href="https://www.twitter.com/" class="linkSocialFooterNet"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelector(".menuIndexBtn").onclick = function () {
+            document.querySelector(".overlay").classList.add("overlayOpen");
+        }
+
+        document.querySelector(".menuBurgerBtn").onclick = function () {
+            document.querySelector(".overlay").classList.remove("overlayOpen");
+        }
+    </script>
+</body>
+
+</html>

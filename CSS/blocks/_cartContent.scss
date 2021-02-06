@@ -1,0 +1,360 @@
+.cartContentWrap {
+    width : $desktop;
+    margin: 0 auto;
+    @include position;
+    justify-content: space-between;
+    margin-bottom  : 128px;
+}
+
+.cartItems {
+    @include zeroMargin;
+    margin-top: 74px;
+}
+
+.cartItemsBlock {
+    @include position;
+    margin-top: 40px;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+
+.cartItemsBlockDescription {
+    display       : flex;
+    flex-direction: column;
+    width         : 390px;
+    margin-left   : 31px;
+    margin-top    : 22px;
+}
+
+.cartItemsBlocktHeader {
+    @include position;
+    justify-content: space-between;
+    @include zeroMargin;
+
+
+}
+
+.h2CartItemsBlock {
+    align-self : flex-start;
+    font-weight: 400;
+    font-size  : 24px;
+    line-height: 28.8px;
+    @include zeroMargin;
+    float: left;
+
+}
+
+.cartItemsBlockHeaderBtn {
+    width   : 18px;
+    height  : 18px;
+    position: absolute;
+    @include zeroMargin;
+    background-color: #ffffff;
+    border          : none;
+    outline         : none;
+    margin-left     : 150px;
+    cursor          : pointer;
+    z-index: 8;
+}
+
+.cartItemsBlockText {
+    @include zeroMargin;
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    padding-top   : 45px;
+}
+
+.cartItemsBlockTextPrice {
+    @include zeroMargin;
+    @include position;
+    padding-bottom: 6px;
+}
+
+.cartItemsBlockTextColor {
+    @include zeroMargin;
+    @include position;
+    padding-bottom: 6px;
+}
+
+.cartItemsBlockTextSize {
+    @include zeroMargin;
+    @include position;
+    padding-bottom: 6px;
+}
+
+.cartItemsBlockTextQuantity {
+    @include zeroMargin;
+    @include position;
+    padding-bottom: 6px;
+}
+
+.h3CartItemsBlockBlack {
+    font-weight: 400;
+    font-size  : 22px;
+    line-height: 26.4px;
+    color      : #575757;
+    @include zeroMargin;
+    padding-right: 5px;
+}
+
+.h4CartItemsBlockPink {
+    font-weight: 400;
+    font-size  : 22px;
+    line-height: 26.4px;
+    color      : $mainPinkColor;
+    @include zeroMargin;
+}
+
+.h4CartItemsBlockGrey {
+    font-weight: 400;
+    font-size  : 22px;
+    line-height: 26.4px;
+    color      : #6F6E6E;
+    @include zeroMargin;
+}
+
+.inputCartItemsBlock {
+    margin-top  : 2px;
+    margin-left : 24px;
+    width       : 43.19px;
+    height      : 24.12px;
+    font-weight : 400;
+    font-size   : 18px;
+    line-height : 21.6px;
+    color       : #656565;
+    padding-left: 9%;
+    outline     : none;
+    border      : 1px solid #EAEAEA;
+}
+
+.cartItemsFooter {
+    @include position;
+    justify-content: space-between;
+    margin-top     : 89px;
+}
+
+.cartItemsBtn {
+    color           : #6F6E6E;
+    font-weight     : 400;
+    font-size       : 14px;
+    line-height     : 16.8px;
+    text-transform  : capitalize;
+    text-align      : center;
+    background-color: #ffffff;
+    width           : 235px;
+    height          : 50px;
+    border          : none;
+    outline         : 1px solid #A4A4A4;
+    cursor          : pointer;
+    border-radius   : 0;
+}
+
+.cartItemsBtn::-moz-focus-inner {
+    border : 0;
+    outline: 1px solid #A4A4A4;
+}
+
+.cartItemsBtn:active,
+.cartItemsBtn:focus {
+    outline: 1px solid #A4A4A4;
+}
+
+.adressCartCheckout {
+    width: 360px;
+}
+
+.adressCartCheckout fieldset {
+    margin-top: 113px;
+    border    : none;
+}
+
+.adressCartCheckoutWrap {
+    display       : flex;
+    flex-direction: column;
+}
+
+.adressCountry {
+    width       : 360px;
+    height      : 45px;
+    margin-top  : 20px;
+    border      : 1px solid #A4A4A4;
+    color       : #222222;
+    font-weight : 400;
+    font-size   : 13px;
+    line-height : 15.6px;
+    padding-left: 17.24px;
+
+}
+
+.adressCountry:focus {
+    border: 1px solid #A4A4A4;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.adressCountry::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.adressCountry:-moz-placeholder {
+    color: #B1B1B1;
+}
+
+.adressState {
+    width       : 360px;
+    height      : 45px;
+    margin-top  : 20px;
+    border      : 1px solid #A4A4A4;
+    color       : #222222;
+    font-weight : 400;
+    font-size   : 13px;
+    line-height : 15.6px;
+    padding-left: 17.24px;
+}
+
+.adressState:focus {
+    border: 1px solid #A4A4A4;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.adressPostcode {
+    width       : 360px;
+    height      : 45px;
+    margin-top  : 20px;
+    border      : 1px solid #A4A4A4;
+    color       : #222222;
+    font-weight : 400;
+    font-size   : 13px;
+    line-height : 15.6px;
+    padding-left: 17.24px;
+}
+.adressPostcode:focus {
+    border: 1px solid #A4A4A4;
+    outline: none;
+}
+.adressBtn {
+    margin-top      : 23px;
+    color           : #6F6E6E;
+    font-weight     : 400;
+    font-size       : 11px;
+    line-height     : 13.2px;
+    text-transform  : capitalize;
+    text-align      : center;
+    background-color: #ffffff;
+    width           : 101.41px;
+    height          : 35px;
+    border          : none;
+    outline         : 1px solid #A4A4A4;
+    cursor          : pointer;
+    border-radius   : 0;
+}
+
+.totalSubmit {
+    width           : 360px;
+    height          : 214px;
+    background-color: #F5F3F3;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    padding-top     : 39px;
+    padding-left    : 50px;
+    @include zeroMargin;
+    margin-top: 58px;
+}
+
+.subTotalText {
+    margin         : 0 auto;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    width          : 273px;
+    border-bottom  : 1px solid #E2E2E2;
+    margin-left    : -6px;
+    margin-top     : 25px;
+}
+
+.subTotal {
+    @include position;
+    justify-content: flex-end;
+    @include zeroMargin;
+    margin-top   : -60px;
+    margin-bottom: 11px;
+
+
+}
+
+.h2SubTotal {
+    @include zeroMargin;
+    font-weight  : 400;
+    font-size    : 11px;
+    color        : #4A4A4A;
+    line-height  : 13.2px;
+    padding-right: 24px;
+    padding-top  : 2px;
+}
+
+.h3Subtotal {
+    @include zeroMargin;
+    font-weight: 400;
+    font-size  : 11px;
+    color      : #4A4A4A;
+    line-height: 13.2px;
+    padding-top: -5px;
+}
+
+.grandTotal {
+    @include position;
+    justify-content: flex-end;
+    @include zeroMargin;
+    margin-bottom: 20px;
+}
+
+.h2GrandTotal {
+    @include zeroMargin;
+    font-weight  : 400;
+    font-size    : 16px;
+    color        : #4A4A4A;
+    line-height  : 19.2px;
+    padding-right: 24px;
+    padding-top  : 2px;
+}
+
+.h3GrandTotal {
+    @include zeroMargin;
+    font-weight: 700;
+    font-size  : 16px;
+    color      : $mainPinkColor;
+    line-height: 19.2px;
+    padding-top: -5px;
+
+}
+
+.checkoutButton {
+    @include zeroMargin;
+    width         : 275px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    padding-top   : 17px;
+    padding-left  : 80px;
+
+}
+
+.checkoutLink {
+    @include zeroMargin;
+    align-self      : center;
+    text-decoration : none;
+    margin-right    : 90px;
+    margin-top      : 9px;
+    align-self      : center;
+    width           : 273px;
+    height          : 50px;
+    background-color: $mainPinkColor;
+    color           : #ffffff;
+    text-align      : center;
+    padding-top     : 7%;
+    font-weight     : 300;
+
+
+}

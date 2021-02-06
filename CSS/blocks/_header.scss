@@ -1,0 +1,135 @@
+.header {
+  background-color: #222222;
+  color           : white;
+}
+
+.headerWrap {
+  height: 75px;
+  @include position;
+  justify-content: space-between;
+  align-items    : center;
+  flex-wrap      : nowrap;
+}
+
+.logoSvg {
+  width       : 44px;
+  height      : 38px;
+  margin-right: 41px;
+}
+
+.accSvg {
+  margin-right: 33px;
+}
+
+.navHeaderMenu {
+  @include position;
+}
+
+.headerMenuWrap {
+  position: relative;
+}
+
+.menuIndexBtn {
+  outline         : none;
+  border          : none;
+  background-color: #222222;
+  color           : #E8E8E8;
+  font-size       : 30px;
+  width           : 32px;
+  height          : 32px;
+  border-radius   : none;
+  font-weight     : 300;
+  margin-right    : 34px;
+  cursor          : pointer;
+}
+
+.overlay {
+  position  : fixed;
+  background: rgba(0, 0, 0, 0.5);
+  left      : 0;
+  right     : 0;
+  top       : 75px;
+  height    : 765px;
+  display   : none;
+  z-index   : 9;
+}
+
+.overlayOpen {
+  display        : flex;
+  justify-content: flex-end;
+}
+
+.menuBurger {
+  background-color: #FFFFFF;
+  @include zeroMargin;
+  width      : 232px;
+  height     : 765px;
+  padding-top: 37px;
+
+}
+
+.menuBurgerList {
+  list-style: none;
+  @include zeroMargin;
+}
+
+.menuBurgerItemBlack {
+  @include zeroMargin;
+  color         : #000000;
+  font-weight   : 700;
+  padding-bottom: 24px;
+}
+
+.menuBurgerItemPink {
+  color: $mainPinkColor;
+  @include zeroMargin;
+  font-weight: 400;
+
+}
+
+.menuBurgerCategories {
+  list-style: none;
+  @include zeroMargin;
+  padding-top   : 12px;
+  padding-left  : 21px;
+  padding-bottom: 18px;
+}
+
+.menuBurgerCategories li {
+  @include zeroMargin;
+  padding-bottom: 12px;
+}
+
+.menuBurgerCategoriesLinks {
+  text-decoration: none;
+  color          : #6F6E6E;
+  font-weight    : 400;
+  padding-bottom : 12px;
+}
+
+.menuBurgerCategoriesLinks:hover {
+  color: $mainPinkColor;
+}
+
+.menuSvg {
+  cursor: pointer;
+}
+
+.menuBurgerBtn {
+  outline         : 0;
+  border          : 0;
+  background-color: transparent;
+  border-radius   : 0;
+  position        : absolute;
+  top             : 16px;
+  right           : 16.99px;
+  cursor          : pointer;
+}
+
+.burgerSvg {
+  fill: #575757;
+}
+
+.burgerSvg:hover {
+  fill: $mainPinkColor;
+}

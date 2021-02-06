@@ -1,0 +1,107 @@
+.products {
+    background-color: #FFFFFF;
+    padding-top: 97px;
+  }
+  .linkProductsTitle {
+    text-decoration: none;
+  }
+  .h2ProductsTitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+    @include zeroMargin;
+  }
+  .h5ProductsTitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: center;
+    color: #9F9F9F;
+    @include zeroMargin;
+    padding-top: 6px;
+    padding-bottom: 48px;
+  }
+  .productsImgWrap {
+    @include position;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .productsImgWrapLink {
+    text-decoration: none;
+  }
+  .productsImg1 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+  }
+  .productsImg2 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+  }
+  .productsImg3 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+  }
+  .productsImg4 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+  }
+  .productsImg5 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+  }
+  .productsImg6 {
+    flex-basis: 30%;
+    background-color: #F8F8F8;
+  }
+  .h3ProductsImg {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.6px;
+    margin-left: 18px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .h4ProductsImg {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-left: 18px;
+    color: #5D5D5D;
+  }
+  .h5ProductsImg {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-left: 18px;
+    color: $mainPinkColor;
+  }
+  .button {
+    color: #F26376;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #ffffff;
+    display: block;
+    width: 212px;
+    height: 48px;
+    outline: 1px solid #F26376;
+    position: relative;
+    margin-left: 463px;
+    margin-top: 48px;
+    margin-bottom: 95px;
+  }
+  .button:hover {
+    color: #ffffff;
+    background-color: #F26376;
+  }

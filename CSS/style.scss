@@ -1,0 +1,48 @@
+$desktop: 1140px;
+$mainPinkColor: #F16D7F;
+@mixin position () {
+  display: flex;
+  flex-direction: row;
+}
+@mixin zeroMargin () {
+  margin: 0;
+}
+//@mixin sizeImg ()//
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include zeroMargin;
+    font-family: 'Lato';
+}
+
+.wrap {
+    width: $desktop;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+
+@import "blocks/promo";
+
+@import "blocks/categories";
+
+@import "blocks/productsIndex";
+  
+@import "blocks/advantages";
+
+@import "blocks/feedback";
+
+@import "blocks/footer";
+
+@import "blocks/breadcrumb";
+
+@import "blocks/catalog";
+  
+@import "blocks/product";  
+  
+@import "blocks/cartContent";  
+
+@import "blocks/registration"

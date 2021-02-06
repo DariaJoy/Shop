@@ -1,0 +1,179 @@
+.registrationFormsWrap {
+    width: $desktop;
+    @include position;
+    justify-content: space-between;
+}
+
+.registrationFormsPerson {
+    display       : flex;
+    flex-direction: column;
+    width         : 360px;
+    @include zeroMargin;
+}
+
+.registrationFormsPerson fieldset {
+    @include zeroMargin;
+    margin-top: 64px;
+    border    : none;
+}
+
+
+.nameRegistrationtWrap {
+    @include zeroMargin;
+    display       : flex;
+    flex-direction: column;
+}
+
+legend {
+    font-weight: 300;
+}
+
+.name {
+    width         : 360px;
+    height        : 45px;
+    margin-top    : 20px;
+    border        : 1px solid #A4A4A4;
+    color         : #222222;
+    font-weight   : 300;
+    font-size     : 13px;
+    line-height   : 15.6px;
+    padding-left  : 17.24px;
+    text-transform: capitalize;
+}
+
+.name:focus {
+    outline: none;
+    border : 1px solid #A4A4A4;
+}
+
+.name::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.name:-moz-placeholder {
+    color: #B1B1B1;
+}
+
+.inputPassword {
+    width       : 360px;
+    height      : 45px;
+    margin-top  : 20px;
+    border      : 1px solid #A4A4A4;
+    color       : #222222;
+    font-weight : 300;
+    font-size   : 13px;
+    line-height : 15.6px;
+    padding-left: 17.24px;
+}
+
+.inputPassword:focus {
+    outline: none;
+    border : 1px solid #A4A4A4;
+}
+
+.inputPassword::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.inputPassword:-moz-placeholder {
+    color: #B1B1B1;
+}
+
+.FormRadio {
+    display        : flex;
+    justify-content: flex-start;
+    flex-direction : row;
+    flex-basis     : 30%;
+    @include zeroMargin;
+    margin-top: 33px;
+}
+
+.FormRadio label {
+    cursor        : pointer;
+    display       : flex;
+    flex-direction: row;
+    @include zeroMargin;
+}
+
+input[type="radio"] {
+    width : 17px;
+    height: 17px;
+    cursor: pointer;
+    @include zeroMargin;
+    margin-top  : 2px;
+    margin-right: 5px;
+}
+
+.pFormRadio {
+    font-weight: 300;
+    @include zeroMargin;
+    margin-right: 20px;
+
+}
+
+.pFormsInput {
+    font-weight: 300;
+    font-size  : 13px;
+    color      : #B1B1B1;
+    @include zeroMargin;
+    line-height: 15.6px;
+}
+
+.FormBtn {
+    @include zeroMargin;
+    margin-top: 39px;
+}
+
+.buttonJoinIn {
+    width           : 167px;
+    height          : 50px;
+    border-radius   : 0;
+    background-color: $mainPinkColor;
+    cursor          : pointer;
+    outline         : none;
+    border          : none;
+    color           : #FFFFFF;
+    font-weight     : 400;
+    font-size       : 14px;
+    line-height     : 16.8px;
+    text-align      : left;
+    padding-left    : 26px;
+    margin-bottom   : 96px;
+}
+
+.buttonJoinIn img {
+    padding-left: 20px;
+}
+
+.h2RegistrationLoyaltyPerks {
+    font-weight   : 300;
+    font-size     : 24px;
+    line-height   : 28.8px;
+    color         : #000000;
+    margin-top    : 64px;
+    text-transform: uppercase;
+}
+
+.pRegistrationLoyaltyPerks {
+    font-weight: 300;
+    font-size  : 24px;
+    line-height: 28.8px;
+    color      : #000000;
+    @include zeroMargin;
+}
+
+.listRegistrationLoyaltyPerks {
+    font-weight: 300;
+    font-size  : 24px;
+    line-height: 28.8px;
+    color      : #000000;
+    @include zeroMargin;
+    padding-top: 21px;
+    list-style : none;
+}
+
+.listRegistrationLoyaltyPerks li {
+    list-style-image: url(/img/Vector.svg);
+    padding-left    : 22px;
+    padding-top     : 16px;
+}

@@ -1,0 +1,72 @@
+.categories {
+    background-color: #FFFFFF;
+    margin-top: 63px;
+  }
+  .categoriesWrap {
+    @include position;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .categoriesImg {
+    width: 360px;
+    height: 260px;
+  }
+  
+  .categoriesHover {
+    text-decoration: none;
+    display: block;
+  }
+  .categoriesHoverText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    @include zeroMargin;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 105px;
+  }
+  .categoriesHoverTextPink {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    @include zeroMargin;
+    color: $mainPinkColor;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .forWomen {
+    background-image: url(img/forWomen.jpg);
+  }
+  .forMen {
+    background-image: url(img/forMen.jpg);
+  }
+  .forKids {
+    background-image: url(img/forKids.jpg);
+  }
+  .accesories {
+    flex-basis: 100%;
+    background-image: url(img/accesories.jpg);
+    margin-top: 30px;
+  }
+  .categoriesImgBottom {
+    width: $desktop;
+    height: 180px;
+  }
+  .categoriesHoverBottom {
+    text-decoration: none;
+    display: block;
+  }
+  .categoriesHoverTextBottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    @include zeroMargin;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 65px;
+  }

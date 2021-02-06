@@ -1,0 +1,50 @@
+.promo {
+    height: 765px;
+    background-image: linear-gradient(90deg, #F4F3F3 50%, #F1E4E6 50%);
+  }
+  
+  .promoWrap {
+    @include position;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .promoHomePage{
+    height: 765px;
+  }
+  .titleHomePage a {
+    width: 505px;
+    @include position;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    border-left: 12px solid $mainPinkColor;
+    align-items: baseline;
+    padding-right: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+  .h1TitleHomePage {
+    font-weight: 900;
+    font-size: 48px;
+    color: #222222;
+    text-transform: uppercase;
+    flex-basis: 90%;
+    @include zeroMargin;
+  }
+  .h2TitleHomePageBlack {
+    font-weight: 700;
+    font-size: 32px;
+    color: #222222;
+    text-transform: uppercase;
+    flex-basis: 50%;
+    @include zeroMargin;
+  }
+  .h2TitleHomePagePink {
+    font-weight: 700;
+    font-size: 32px;
+    color: $mainPinkColor;
+    text-transform: uppercase;
+    flex-basis: 50%;
+    @include zeroMargin;
+  }

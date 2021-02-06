@@ -1,0 +1,44 @@
+.breadcrumbCatalog {
+  background-color: #F8F3F4;
+}
+
+.breadcrumbCatalogWrap {
+  height: 148px;
+  @include position;
+  justify-content: space-between;
+  align-items    : center;
+}
+
+.menuBreadcrumbCatalog {
+  @include position;
+}
+
+.h1linkNewArrivals {
+  font-weight   : 400;
+  font-size     : 24px;
+  line-height   : 28.8px;
+  text-transform: uppercase;
+  color         : $mainPinkColor;
+}
+
+.linkMenuBreadcrumbCatalog {
+  text-decoration: none;
+}
+
+.h4linkMenuBreadcrumbCatalog {
+  padding-top   : 5px;
+  font-weight   : 700;
+  font-size     : 14px;
+  line-height   : 16.8px;
+  text-transform: uppercase;
+  color         : $mainPinkColor;
+}
+
+.h3linkMenuBreadcrumbCatalog {
+  font-weight   : 300;
+  font-size     : 14px;
+  line-height   : 16.8px;
+  text-transform: uppercase;
+  color         : #636363;
+  padding-right : 4px;
+}
